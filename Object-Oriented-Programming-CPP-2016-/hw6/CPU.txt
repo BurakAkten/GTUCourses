@@ -1,0 +1,12 @@
+moV R1,10; comment
+MOV R2  ,  0 
+MOV R1 ,  R3;
+ADD r2,R1    ;
+SUB r3 ,  1 
+JMP R3 ,   8   
+JmP 4;
+SUB R1, 1;
+JMP 		R1 , 11;
+JMP R3 , 3 ;
+PRN r2 ;print line
+HLT ;last line

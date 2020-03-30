@@ -1,0 +1,13 @@
+Usage : exe string directoryName
+
+After run this code , created  1 new file that is called as "log.log".
+The "log.log" txt is result file.
+
+
+when you run this code "make clean".  exe and .o files are cleaned.
+
+***                                 ***                                             ***
+***                                 ***                                             ***
+	The file that is called "log.log" is created as append mode in the code. Because of that the file must be deleted before scond running.
+***                                 ***                                             ***
+***                                 ***                                             ***

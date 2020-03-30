@@ -1,0 +1,5 @@
+usage for server :
+	./server <port #, id> <thpool size, k >
+usage for clients:
+	./clients <#of columns of A, m> <#of rows of A, p> <#of clients, q> <port # , id>
+

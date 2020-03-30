@@ -1,0 +1,16 @@
+Usage : grepTh string directoryName
+
+After run this code , created  1 new file that is called as "log.txt".
+The "log.txt" txt is result file.
+
+
+when you run this code "make clean".  exe and .o files are cleaned.
+
+***                                 ***                                             ***
+***                                 ***                                             ***
+	The file that is called "log.txt" is created as append mode in the code. Because of that the file is removed in the code with remove() function.
+***                                 ***                                             ***
+***                                 ***                                             ***
+
+
+NOT : You can test program with the files directory and with "adada" string.

@@ -1,0 +1,13 @@
+Usage : listdir string directoryName
+
+After run this code , created  2 new file that are called as "total.txt" and "log.log".
+The "log.log" txt is result file.
+The "total.txt" i s helper file not important after running.
+
+when you run this code "make clean". This "total.txt" file listdir and .o file is cleaned.
+
+***                                 ***                                             ***
+***                                 ***                                             ***
+	The file that is called "log.log" is created as append mode in the code. Because of that the file must be deleted before scond running.
+***                                 ***                                             ***
+***                                 ***                                             ***

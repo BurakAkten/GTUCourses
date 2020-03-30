@@ -1,0 +1,35 @@
+-----
+	*This code find a root of a function by using Bisection Method.
+	*In this code there is a function to test the code. You can change the 
+	 function to try any function.
+
+-----
+	*The other file which name is Questions.txt includes results of functiouns 
+	 which is
+		- f(x) = 3*x -e^x                 1 <= x <= 2
+		- f(x) = 2*x + 3*cos(x) - e^x     0 <= x <= 1
+		- f(x) = x^2 - 4*x + 4 - ln(x)    1 <= x <= 2
+		- f(x) = x^2 - 4*x + 4 - ln(x)    2 <= x <= 4
+		- f(x) = x + 1 -2*sin(pi*x)       0 <= x <= 0.5
+		- f(x) = x + 1 -2*sin(pi*x)       0.5<=x <= 1
+
+------
+
+--To run these code you can do these on your linux machine.
+	* run the command on terminal  
+		-$make
+	*Then you will have a runable 'exe' file.
+	*then write this with command line parameters
+		-$./exe startingRoot stoppingRoot stoppinCriteria epsilonValue
+	
+	*If you want to see results of these function that I mentioned above , it's 
+	enough to append -DX end of the 7th line of makefile. 
+		-DX => X = A for the first function
+			=> X = B for the second function 
+			=> X = C for the third function 
+			=> X = D for the fouth function that I mentioned above.  
+	
+--Usage :./exe a b stoppingCrietion epsilon
+
+
+---stoppingCrietion : RELATIVE_ERROR , ABSOLUTE_ERROR , DISTANCE_TO_ROOT
